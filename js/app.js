@@ -13,8 +13,6 @@ let vm = new Vue({
   mounted: function() {
     var self = this
     $.getJSON('data/data.json', function(json) {
-      console.log("loaded");
-      console.log(json);
       self.dayToDay5 = json.dayToDay.slice(0,5)
       self.dayToDayRest = json.dayToDay.slice(5)
       self.barriersNeeds5 = json.barriersAndNeeds.slice(0,5)

@@ -16,7 +16,7 @@
 }
 
 .question li.question-title  {
-  list-style-image: url(icons/check-square.svg); 
+  list-style-image: url(../icons/check-square.svg); 
   font-size: 110%;
   font-style: italic;
 }
@@ -46,6 +46,27 @@
 
 .question-more img {
   margin-right: 0.75rem;
+}
+
+.jumbotron {
+  background-color: #254858;
+  color: white !important;
+}
+
+
+.footer {
+  height: 100px;
+  background-color: #254858;
+  color: white !important;
+  font-size: 14px;
+  margin-top: 2rem;
+  padding-top: 10px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;  
+  font-weight: bold;
 }
 
 

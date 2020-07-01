@@ -182,29 +182,29 @@
   "barriersAndNeeds" : [
     {
       "type": "barriers-needs",
-      "question": "Accessibility of governance model",
+      "question": "Is you governance model easy to access?",
       "id": "B2",
       "order": 1,
       "median": 4,
       "mode": 5,
       "mean": 3.6,
-      "info": "",
+      "info": "Think how difficult if for newcomers to understand how your project is governed. For instance, how hard is for newcomers to discover who is behind the project leadership?",
       "links" : []
     },
     {
       "type": "barriers-needs",
-      "question": "Organic growth",
+      "question": "Have you considered the organic growth of your project?",
       "id": "B8",
       "order": 2,
       "median": 4,
       "mode": 4,
       "mean": 3.4,
-      "info": "",
+      "info": "As any other project under development, your project will evolve along time. Have you planned how to deal with that in terms of decision-making mechanisms?",
       "links" : []
     },
     {
       "type": "barriers-needs",
-      "question": "Burnout consequences",
+      "question": "Be aware of burnout consequences",
       "id": "B9",
       "order": 3,
       "median": 4,
@@ -215,7 +215,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Scope of the community",
+      "question": "Have you identify the scope of your community?",
       "id": "B11",
       "order": 4,
       "median": 4,
@@ -226,7 +226,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Single point of failure",
+      "question": "Have you studied whether there is a single point of failure in your project",
       "id": "B15",
       "order": 5,
       "median": 4,
@@ -459,18 +459,18 @@
   "interventions" : [
     {
       "type": "interventions",
-      "question": "Removing bad actors",
+      "question": "Have you considered removing those bad actors?",
       "id": "I1",
       "order": 1,
       "median": 5,
       "mode": 5,
       "mean": 4.467,
-      "info": "",
+      "info": "Sometimes the best solution is to isolate or remove the contributors that are causing problems.",
       "links" : []
     },
     {
       "type": "interventions",
-      "question": "Make a pause (give space/time)",
+      "question": "Why not making make a pause, trying to give some space/time to fix the problem?",
       "id": "I2",
       "order": 2,
       "median": 4,
@@ -481,7 +481,7 @@
     },
     {
       "type": "interventions",
-      "question": "Descaling + breaking down problems",
+      "question": "Have you tried to descaling ir breaking down the problem?",
       "id": "I5",
       "order": 3,
       "median": 4,
@@ -492,7 +492,7 @@
     },
     {
       "type": "interventions",
-      "question": "Document the implicit unknown",
+      "question": "Sometimes the problem is in the implicit unknown, why not document it and make it explicit?",
       "id": "I9",
       "order": 4,
       "median": 4,
@@ -503,7 +503,7 @@
     },
     {
       "type": "interventions",
-      "question": "Ask for (external) help",
+      "question": "Other possible resort: Ask for (external) help!",
       "id": "I10",
       "order": 5,
       "median": 4,
