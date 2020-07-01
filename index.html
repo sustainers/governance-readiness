@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Governance Readiness Checklist</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4 text-center">Governance Readiness Checklist</h1>
+        <p class="lead text-center">A light-weight framework to define the governance model in your software project.</p>
+      </div>
+    </div>
+
+    <div class="container">
+
+    <h1>A checklist?</h1>
+    <p>The definition of <strong>Governance Rules</strong> is hard. A checklist is an easy way to face common questions and issues you usually face to define your governance model.</p> 
+    <p>The checklist was created by a group of Open-Source developers and practitioners who worked together in the context of a <strong>SustainOSS initiative</strong>.</p>
+    <p>Elements in the checklist have been carefully selected and prioritized via a survey. We will show you the most important elements but you can always show the full list.</p>
+    
+    <hr class="my-4"/>
+
+    <div id="vue-app">
+    <h2 class="question-group">Day-to-day</h2>
+    <div class="question" v-for="question in dayToDay5">
+      <li class="question-title">
+        {{ question.question }}
+        <a class="question-info" data-toggle="collapse" v-bind:href="'#'+question.id" role="button" aria-expanded="false" aria-controls="collapseInfo"><img src="icons/info-circle.svg"></a>
+      </li>
+      <div class="collapse" v-bind:id="question.id">
+      <p class="question-text">{{ question.info }}</p>
+      </div>
+    </div>
+
+    <a class="question-more" data-toggle="collapse" href="#ddmore" role="button" aria-expanded="false" aria-controls="collapseInfo">
+      <img src="icons/chevron-double-down.svg">Show more...
+    </a>
+
+    <div class="collapse" id="ddmore">
+      <div class="question" v-for="question in dayToDayRest">
+        <li class="question-title">
+          {{ question.question }}
+          <a class="question-info" data-toggle="collapse" v-bind:href="'#'+question.id" role="button" aria-expanded="false" aria-controls="collapseInfo"><img src="icons/info-circle.svg"></a>
+        </li>
+        <div class="collapse" v-bind:id="question.id">
+        <p class="question-text">{{ question.info }}</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="question-group">Barriers and Needs</h2>
+    <div class="question" v-for="question in barriersNeeds5">
+      <li class="question-title">
+        {{ question.question }}
+        <a class="question-info" data-toggle="collapse" v-bind:href="'#'+question.id" role="button" aria-expanded="false" aria-controls="collapseInfo"><img src="icons/info-circle.svg"></a>
+      </li>
+      <div class="collapse" v-bind:id="question.id">
+      <p class="question-text">{{ question.info }}</p>
+      </div>
+    </div>
+
+    <a class="question-more" data-toggle="collapse" href="#bnmore" role="button" aria-expanded="false" aria-controls="collapseInfo">
+      <img src="icons/chevron-double-down.svg">Show more...
+    </a>
+
+    <div class="collapse" id="bnmore">
+      <div class="question" v-for="question in barriersNeedsRest">
+        <li class="question-title">
+          {{ question.question }}
+          <a class="question-info" data-toggle="collapse" v-bind:href="'#'+question.id" role="button" aria-expanded="false" aria-controls="collapseInfo"><img src="icons/info-circle.svg"></a>
+        </li>
+        <div class="collapse" v-bind:id="question.id">
+        <p class="question-text">{{ question.info }}</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="question-group">Interventions</h2>
+    <div class="question" v-for="question in interventions5">
+      <li class="question-title">
+        {{ question.question }}
+        <a class="question-info" data-toggle="collapse" v-bind:href="'#'+question.id" role="button" aria-expanded="false" aria-controls="collapseInfo"><img src="icons/info-circle.svg"></a>
+      </li>
+      <div class="collapse" v-bind:id="question.id">
+      <p class="question-text">{{ question.info }}</p>
+      </div>
+    </div>
+
+    <a class="question-more" data-toggle="collapse" href="#imore" role="button" aria-expanded="false" aria-controls="collapseInfo">
+      <img src="icons/chevron-double-down.svg">Show more...
+    </a>
+
+    <div class="collapse" id="imore">
+      <div class="question" v-for="question in interventionsRest">
+        <li class="question-title">
+          {{ question.question }}
+          <a class="question-info" data-toggle="collapse" v-bind:href="'#'+question.id" role="button" aria-expanded="false" aria-controls="collapseInfo"><img src="icons/info-circle.svg"></a>
+        </li>
+        <div class="collapse" v-bind:id="question.id">
+        <p class="question-text">{{ question.info }}</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <hr class="my-4"/>
+
+    <h1>What's next?</h1>
+    <p>Once you have gone through the checklist and thought carefully how you may address them. It's time to start defining the governance model for your project.</p>
+
+    <p>We propose you to use *CommunityRule* for this task. You will find more info here...</p>
+
+</h1>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
