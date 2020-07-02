@@ -215,7 +215,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Have you identify the scope of your community?",
+      "question": "Have you identified the scope of your community?",
       "id": "B11",
       "order": 4,
       "median": 4,
