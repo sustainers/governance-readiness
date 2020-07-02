@@ -20,14 +20,17 @@
     <img src="icons/overview.svg">
 
     <h1>A checklist?</h1>
-    <p>The definition of <strong>Governance Rules</strong> is hard. We have create a checklist to help you to face common questions and issues you usually face to define your governance model.</p> 
+    <p>The definition of <strong>Governance Rules is hard</strong>. We have create a checklist to help you to face common questions and issues you usually face to define your governance model.</p> 
     <p>The checklist was carefully created by a group of Open-Source developers and practitioners who worked together in the context of the <a href="https://sustainoss.org/">SustainOSS initiative</a>. </p>
-    <p>We identified three main dimensions that you should consider when defining your governance model. Elements in these dimension have been meticulously selected and prioritized via a survey. We will show you the most important elements but you can always show the full list. You can find the full seleccion and prioritization process <a href="https://discourse.sustainoss.org/t/governance-readiness-working-group/298/41">here</a>.</p>
+    <p>We identified <strong>three main dimensions</strong> that you should consider when defining your governance model. Elements in these dimension have been meticulously selected and prioritized via a survey. We will show you the most important elements but you can always show the full list. You can find the full seleccion and prioritization process <a href="https://discourse.sustainoss.org/t/governance-readiness-working-group/298/41">here</a>.</p>
     
     <hr class="my-4"/>
 
     <div id="vue-app">
     <h2 class="question-group">Day-to-day</h2>
+    <p class="question-group-description">
+      This dimension explore questions regarding governance that you may have to face when developing OSS projects. Try to think whether you have considered them in your project and how you plan to address them.
+    </p>
     <div class="question" v-for="question in dayToDay5">
       <li class="question-title">
         {{ question.question }}
@@ -55,6 +58,9 @@
     </div>
 
     <h2 class="question-group">Barriers and Needs</h2>
+    <p class="question-group-description">
+      We know that things never go as we initially planned. This dimension includes the main challenges that you may have to face when dealing with governance definition and management.
+    </p>
     <div class="question" v-for="question in barriersNeeds5">
       <li class="question-title">
         {{ question.question }}
@@ -82,6 +88,9 @@
     </div>
 
     <h2 class="question-group">Interventions</h2>
+    <p class="question-group-description">
+      Sometimes we need a last resort solution. This dimension explores the possible actions to apply changes related to governance issues in OSS projects.
+    </p>
     <div class="question" v-for="question in interventions5">
       <li class="question-title">
         {{ question.question }}
