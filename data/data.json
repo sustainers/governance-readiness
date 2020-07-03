@@ -65,7 +65,7 @@
       "median": 4,
       "mode": 5,
       "mean": 3.733,
-      "info": "",
+      "info": "The ownership is always an important topic to consider. Think whether you want to identify leaders (or owners) for your artefacts? This will also help to think about a license to choose.",
       "links" : []
     },
     {
@@ -76,7 +76,7 @@
       "median": 4,
       "mode": 4,
       "mean": 3.733,
-      "info": "",
+      "info": "Problems eventually appear, and it is crucial to have some plan to solve them. A code of conduct is useful to address this issue.",
       "links" : []
     },
     {
@@ -237,7 +237,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Money and funding",
+      "question": "Is the money (and funding) a problem?",
       "id": "B17",
       "order": 6,
       "median": 4,
@@ -248,7 +248,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Experience with governance or community processes",
+      "question": "Have you experienced previous problems with governance or community processes?",
       "id": "B22",
       "order": 7,
       "median": 4,
@@ -259,7 +259,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "License used",
+      "question": "Could the license become a problem?",
       "id": "B1",
       "order": 8,
       "median": 3,
@@ -270,7 +270,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Security process/maturity",
+      "question": "May the security/maturity process be a problem?",
       "id": "B3",
       "order": 9,
       "median": 3,
@@ -281,7 +281,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Clarity of elements to be governed",
+      "question": "Have you clarified the elements to be governed?",
       "id": "B4",
       "order": 10,
       "median": 3,
@@ -292,7 +292,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Impact of governance",
+      "question": "Have you studied the impact of governance in your project?",
       "id": "B5",
       "order": 11,
       "median": 3,
@@ -303,7 +303,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Safety concerns",
+      "question": "Does you project development process involve some safety concerns?",
       "id": "B6",
       "order": 12,
       "median": 3,
@@ -314,7 +314,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Identify contributions to governance",
+      "question": "Is it easy to identify contributions to governance?",
       "id": "B7",
       "order": 13,
       "median": 3,
@@ -325,7 +325,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Considerations in human-centric processes",
+      "question": "Have you explored possible considerations in human-centric processes?",
       "id": "B10",
       "order": 14,
       "median": 3,
@@ -336,7 +336,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Transparency versus lived experience",
+      "question": "Is the transparency and lived experience balanced?",
       "id": "B12",
       "order": 15,
       "median": 3,
@@ -358,7 +358,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Communication methodology",
+      "question": "Have you defined a proper communication methodology?",
       "id": "B14",
       "order": 17,
       "median": 3,
@@ -369,7 +369,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Problematic models (e.g., BDFL)",
+      "question": "Have you identified possible problematic governance models (e.g., BDFL)?",
       "id": "B18",
       "order": 18,
       "median": 3,
@@ -380,7 +380,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Cult of personality",
+      "question": "Is there a strong cult of personality in your project?",
       "id": "B19",
       "order": 19,
       "median": 3,
@@ -391,7 +391,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Ownership operations",
+      "question": "Is there any kind of ownership operations?",
       "id": "B20",
       "order": 20,
       "median": 3,
@@ -402,7 +402,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Power disparity",
+      "question": "Have you identify a power disparity in your project community?",
       "id": "B21",
       "order": 21,
       "median": 3,
@@ -413,7 +413,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Transition of models",
+      "question": "Are you transitioning between governance models?",
       "id": "B23",
       "order": 22,
       "median": 3,
@@ -424,7 +424,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Bad press",
+      "question": "Could bad press affect your project?",
       "id": "B16",
       "order": 23,
       "median": 2,
@@ -435,7 +435,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Patents",
+      "question": "Are patents (both internal and external to your project) a problem?",
       "id": "B24",
       "order": 24,
       "median": 2,
@@ -446,7 +446,7 @@
     },
     {
       "type": "barriers-needs",
-      "question": "Remote versus in-person workers",
+      "question": "Have you considered remote versus in-person workers",
       "id": "B25",
       "order": 25,
       "median": 1,
@@ -514,18 +514,18 @@
     },
     {
       "type": "interventions",
-      "question": "Forking",
+      "question": "Why not forking the project?",
       "id": "I3",
       "order": 6,
       "median": 3,
       "mode": 4,
       "mean": 3.067,
-      "info": "",
+      "info": "The decision of forking a project is maybe one of the most aggressive ones but sometimes is the only solution.",
       "links" : []
     },
     {
       "type": "interventions",
-      "question": "Decentralization",
+      "question": "Could a decentralization solve the problem?",
       "id": "I4",
       "order": 7,
       "median": 3,
@@ -536,7 +536,7 @@
     },
     {
       "type": "interventions",
-      "question": "Federation",
+      "question": "Have you thought to change to a federation as project organization?",
       "id": "I7",
       "order": 8,
       "median": 3,
@@ -547,7 +547,7 @@
     },
     {
       "type": "interventions",
-      "question": "Work on gaps that you are identified",
+      "question": "Remember to work on gaps that you are identified as problem sources",
       "id": "I8",
       "order": 9,
       "median": 3,
@@ -558,7 +558,7 @@
     },
     {
       "type": "interventions",
-      "question": "Change the model",
+      "question": "Go to the point: change the governance model",
       "id": "I11",
       "order": 10,
       "median": 3,
@@ -569,7 +569,7 @@
     },
     {
       "type": "interventions",
-      "question": "Incentives",
+      "question": "Could an incentive mechanism address the problem?",
       "id": "I13",
       "order": 11,
       "median": 3,
@@ -580,7 +580,7 @@
     },
     {
       "type": "interventions",
-      "question": "Risk assessment",
+      "question": "Have you conducted a risk assessment to identify the problem?",
       "id": "I14",
       "order": 12,
       "median": 3,
@@ -591,7 +591,7 @@
     },
     {
       "type": "interventions",
-      "question": "Incubation",
+      "question": "Should you move back to an incubation state?",
       "id": "I15",
       "order": 13,
       "median": 3,
@@ -602,7 +602,7 @@
     },
     {
       "type": "interventions",
-      "question": "Dissolution",
+      "question": "This may be dractic: have you thought about dissolving the project?",
       "id": "I6",
       "order": 14,
       "median": 2,
@@ -613,7 +613,7 @@
     },
     {
       "type": "interventions",
-      "question": "Patents",
+      "question": "Patents are sometimes a source of problems",
       "id": "I12",
       "order": 15,
       "median": 1,
