@@ -87,7 +87,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.6,
-      "info": "",
+      "info": "Even though you are only a group of eager developers, you should also think whether you plan to aim at some kind of organization structure. For instance, there is a high number of Open Source projects that end up creating a foundation.",
       "links" : []
     },
     {
@@ -98,7 +98,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.333,
-      "info": "",
+      "info": "Open Source development does not have to be free work. You should look for potential funding solutions.",
       "links" : []
     },
     {
@@ -120,7 +120,7 @@
       "median": 3,
       "mode": 3,
       "mean": 2.867,
-      "info": "",
+      "info": "Licensing is always a hard topic to treat. At the beginning, it may be easy to think about GPL, EPL or CC terms, but you should carefully read the differences and decide what is the most suitable.",
       "links" : []
     },
     {
@@ -131,7 +131,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.2,
-      "info": "",
+      "info": "Do you foresee some mechanism to gather feedback about the project development? Maybe you think about one developer leading the development process but do you visualize some help from the community?",
       "links" : []
     },
     {
@@ -142,7 +142,7 @@
       "median": 3,
       "mode": 5,
       "mean": 3.4,
-      "info": "",
+      "info": "This is a very specific question and will help you identify one of the main decision-makers in your project (either a developer, a group of developers, or a commitee).",
       "links" : []
     },
     {
@@ -153,7 +153,7 @@
       "median": 3,
       "mode": 2,
       "mean": 3.133,
-      "info": "",
+      "info": "Accountability may sound scary, but it just refers to having a way to trace back the contributions of your project. It can later help you recognize the development effort and the main actors in your project.",
       "links" : []
     },
     {
@@ -164,7 +164,7 @@
       "median": 3,
       "mode": 4,
       "mean": 2.933,
-      "info": "",
+      "info": "Working hard on defining a good governance model is nice, but promoting it and make it accesible is even better.",
       "links" : []
     },
     {
@@ -175,7 +175,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.267,
-      "info": "",
+      "info": "Onboarding refers to the ability of the project to absorb new contributors to help on the development process.",
       "links" : []
     }
   ],
