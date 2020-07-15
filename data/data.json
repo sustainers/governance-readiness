@@ -210,7 +210,7 @@
       "median": 4,
       "mode": 4,
       "mean": 3.733,
-      "info": "",
+      "info": "Take care of your contributors, they may feel they are working too much in your project. Paying attention to the health of your community is crucial.",
       "links" : []
     },
     {
@@ -221,7 +221,7 @@
       "median": 4,
       "mode": 3,
       "mean": 3.667,
-      "info": "",
+      "info": "The community of any Open Source project can have different faces, are they developers with a strong technical background? or maybe are they end-users? It is important to know yous community and their limits.",
       "links" : []
     },
     {
@@ -232,7 +232,7 @@
       "median": 4,
       "mode": 3,
       "mean": 3.6,
-      "info": "",
+      "info": "This is an important task to do: try to discover if your project can fail due to a single elements (i.e., component, developer, etc.).",
       "links" : []
     },
     {
@@ -243,7 +243,7 @@
       "median": 4,
       "mode": 4,
       "mean": 3.8,
-      "info": "",
+      "info": "Sometimes Open Source projects are having problems due to economical issues, try to prevent them by analyzing the main source expenses.",
       "links" : []
     },
     {
@@ -254,7 +254,7 @@
       "median": 4,
       "mode": 4,
       "mean": 3.267,
-      "info": "",
+      "info": "Maybe you have experience in dealing with governance issues, in that case, have you identified the main reason of that problem? how would you prevent it?",
       "links" : []
     },
     {
@@ -265,7 +265,7 @@
       "median": 3,
       "mode": 4,
       "mean": 3,
-      "info": "",
+      "info": "License problems usually appear when the decision to adopt one was not carefully made. To avoid this barrier, try to think in advance if it may become a problem in the future.",
       "links" : []
     },
     {
@@ -276,7 +276,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.133,
-      "info": "",
+      "info": "Security/maturity issues may become a problem in Open Source projects oriented to specific fields, such as enterprise applications or critical systems.",
       "links" : []
     },
     {
@@ -287,7 +287,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.333,
-      "info": "",
+      "info": "It is important to clearly identify the elements of your projects that are under control of the governance model. For instance, issues or pull requests are usually governed in some way.",
       "links" : []
     },
     {
@@ -298,7 +298,7 @@
       "median": 3,
       "mode": 4,
       "mean": 3.333,
-      "info": "",
+      "info": "Deploying or changing a governance model may have an important impact in your project. You should study who (and what) will be affected by the changes and think how to prevent possible conflicts.",
       "links" : []
     },
     {
@@ -309,7 +309,7 @@
       "median": 3,
       "mode": 2,
       "mean": 2.867,
-      "info": "",
+      "info": "Safety regulations are generally very strict and requires compliance levels that may affect the governance of your project. ",
       "links" : []
     },
     {
@@ -320,7 +320,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.067,
-      "info": "",
+      "info": "This barrier appears when it is not clear how to contribute to the governance model of your project. Do you foresee the possibility of allowing anyone to contribute?",
       "links" : []
     },
     {
@@ -331,7 +331,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.4,
-      "info": "",
+      "info": "Alghouth human-centric concepts may seem abstract, it refers to the fact that Open Source project usually capitalize on contributors (beyond economical or organizational entitites).",
       "links" : []
     },
     {
@@ -342,7 +342,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.2,
-      "info": "",
+      "info": "This barrier refers to a proper acknowledgement of the experience of the contributors of your project, and how easy it is to check it.",
       "links" : []
     },
     {
@@ -353,7 +353,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.2,
-      "info": "",
+      "info": "Openness can refer to multiple elements in your project. Have you thought whether you want to embrace the Open Source movement and how it may involve opening the governance model of your project?",
       "links" : []
     },
     {
@@ -364,7 +364,7 @@
       "median": 3,
       "mode": 4,
       "mean": 3.4,
-      "info": "",
+      "info": "Efficient communication means will assure better transparency and openness in your project.",
       "links" : []
     },
     {
@@ -375,7 +375,7 @@
       "median": 3,
       "mode": 4,
       "mean": 3.067,
-      "info": "",
+      "info": "Sometimes the best way to identify the best governance model is to first study those ones that you know are bad for your project.",
       "links" : []
     },
     {
