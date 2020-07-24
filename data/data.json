@@ -386,7 +386,7 @@
       "median": 3,
       "mode": 4,
       "mean": 3.333,
-      "info": "",
+      "info": "Sometimes projects awards those contributors with strong presence in the community, is your project one of them?",
       "links" : []
     },
     {
@@ -397,7 +397,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.4,
-      "info": "",
+      "info": "Think if your project keeps some kind of ownership record or if some ownership permission has to be made.",
       "links" : []
     },
     {
@@ -408,7 +408,7 @@
       "median": 3,
       "mode": 4,
       "mean": 3.2,
-      "info": "",
+      "info": "Is your project some kind of two-headed dragon with different leaders? Who has the control of the community?",
       "links" : []
     },
     {
@@ -419,7 +419,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3,
-      "info": "",
+      "info": "The change of governance models usually becomes disruptive in any project, try to identify potential issues that may appear.",
       "links" : []
     },
     {
@@ -430,7 +430,7 @@
       "median": 2,
       "mode": 2,
       "mean": 2.4,
-      "info": "",
+      "info": "If your project is well-known, bad press could be an issue, try to identify counter plans to face the situation.",
       "links" : []
     },
     {
@@ -441,7 +441,7 @@
       "median": 2,
       "mode": 1,
       "mean": 1.933,
-      "info": "",
+      "info": "Some projects rely on existing patents to work, in these cases, it is important to clearly understand the legal implications and how it affects the evolution of your project.",
       "links" : []
     },
     {
@@ -452,7 +452,7 @@
       "median": 1,
       "mode": 1,
       "mean": 2.133,
-      "info": "",
+      "info": "Even though software development could be seen as one of the sectors where remote working is welcome, it sometime bacome an isuee.",
       "links" : []
     }
   ],
@@ -476,18 +476,18 @@
       "median": 4,
       "mode": 5,
       "mean": 4.067,
-      "info": "",
+      "info": "Sometimes time is the best solution, think whether some time (or space) could make the problem disappear.",
       "links" : []
     },
     {
       "type": "interventions",
-      "question": "Have you tried to descaling ir breaking down the problem?",
+      "question": "Have you tried to descaling or breaking down the problem?",
       "id": "I5",
       "order": 3,
       "median": 4,
       "mode": 4,
       "mean": 3.6,
-      "info": "",
+      "info": "Being proactive is maybe the best way to fix the problem, analyze and face the situation to really understand how to solve it!",
       "links" : []
     },
     {
@@ -498,7 +498,7 @@
       "median": 4,
       "mode": 3,
       "mean": 3.733,
-      "info": "",
+      "info": "Sometimes we oversee the actual source of the problem, which may be related with implicit information in your project.",
       "links" : []
     },
     {
@@ -509,7 +509,7 @@
       "median": 4,
       "mode": 4,
       "mean": 4,
-      "info": "",
+      "info": "If you and your community cannot solve the problem, search for help, sometimes is the best way to have a different view of the problem.",
       "links" : []
     },
     {
@@ -531,7 +531,7 @@
       "median": 3,
       "mode": 4,
       "mean": 3.2,
-      "info": "",
+      "info": "Sometimes the problem is the accumulation of power in specific parts of the project (e.g., the leader, an important component of the software, etc.). Think if you can split it.",
       "links" : []
     },
     {
@@ -542,7 +542,7 @@
       "median": 3,
       "mode": 3,
       "mean": 2.8,
-      "info": "",
+      "info": "Organizational changes such as evolving to a federation (or other kind of structure) could help you to face the problem.",
       "links" : []
     },
     {
@@ -553,7 +553,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.467,
-      "info": "",
+      "info": "We recommended you to make an effort to identify the implicit elements of your project, try to recover those notes and see if they can help",
       "links" : []
     },
     {
@@ -564,7 +564,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.267,
-      "info": "",
+      "info": "Sometimes the only solution is to change the governance model. But we aware, it is going to be disruptive.",
       "links" : []
     },
     {
@@ -575,7 +575,7 @@
       "median": 3,
       "mode": 3,
       "mean": 3.267,
-      "info": "",
+      "info": "Incentive mechanisms could help you to address governance issues in your project, for instance, to give some recognition to those external contributors who are fixing important bugs in your project.",
       "links" : []
     },
     {
@@ -586,7 +586,7 @@
       "median": 3,
       "mode": 4,
       "mean": 3.267,
-      "info": "",
+      "info": "Full risk assessment may look scary but it is important, at least, explore the potential sources of risk of the problem.",
       "links" : []
     },
     {
@@ -597,7 +597,7 @@
       "median": 3,
       "mode": 1,
       "mean": 2.6,
-      "info": "",
+      "info": "Consider moving to a different development status, for instance, to an incubation status.",
       "links" : []
     },
     {
@@ -608,7 +608,7 @@
       "median": 2,
       "mode": 1,
       "mean": 2.533,
-      "info": "",
+      "info": "This may be the last resort to consider, but sometime it pays off.",
       "links" : []
     },
     {
@@ -619,7 +619,7 @@
       "median": 1,
       "mode": 1,
       "mean": 1.8,
-      "info": "",
+      "info": "Have you consider to remove your dependency to patents?",
       "links" : []
     }
   ]
